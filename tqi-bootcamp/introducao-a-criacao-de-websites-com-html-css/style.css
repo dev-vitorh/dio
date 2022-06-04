@@ -1,3 +1,57 @@
-#main-container {
-    background-color: red;
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#principal {
+    max-width: 900px;
+    margin: auto;
+}
+
+#sobre-mim-container {
+    width: 900px;
+}
+
+#dados-container {
+    width: 250px;
+    float: left;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#foto {
+    width: 250px;
+}
+
+#foto img {
+    width: 200px;
+    margin: 10px 25px;
+    border-radius: 100%;
+}
+
+#dados {
+    width: 200px;
+    margin: 10px auto;
+}
+
+#dados h2 {
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+#apresentacao-container {
+    border: 1px solid cornflowerblue;
+    width: 640px;
+    float: left;
+}
+
+.titulo {
+    background-color: cornflowerblue;
+    color: white;
+    margin: 5px 150px;
+    text-align: center;
+}
+
+#sobre-mim {
+    padding: 10px;
+    text-align: justify;
 }
